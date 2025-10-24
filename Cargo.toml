@@ -55,7 +55,7 @@ cpal = "0.16"
 fluidlite = { version = "0.2", features = ["builtin"] }
 oxisynth = "0.1.0"
 embed-resource = "3.0"
-midir = "0.10"
+midir = { git = "https://github.com/artisdom/midir.git", branch = "ble_midi", features = ["bluetooth"] }
 objc = "0.2"
 ron = "0.11"
 serde = "1"
